@@ -1,0 +1,22 @@
+# Ignore Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Ignore large data files (GitHub 100MB limit)
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+
+# Ignore saved models and checkpoints
+models/
+*.pt
+*.safetensors
+*.bin
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
