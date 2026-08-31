@@ -3,7 +3,7 @@
 ## 1. Overview and Objective
 This repository contains the full methodology, datasets, training scripts, and evaluation metrics for our Prompt Injection Detection System (PIDS). 
 
-The primary objective of this research is to secure base Large Language Models (LLMs), such as LLaMA, against sophisticated prompt injection attacks in complex, simulated environments like the **AgentDojo** framework. We evaluate the vulnerability of the base model first without any defense, and then protect it using fine-tuned, small language models (such as DistilBERT, MiniLM, RoBERTa, and DeBERTa).
+The primary objective of this research is to secure base Large Language Models (LLMs), such as LLaMA, against sophisticated prompt injection attacks in complex, simulated environments like the **AgentDojo** framework. We evaluate the vulnerability of the base model first without any defense, and then protect it using fine-tuned, small language models (MiniLM, DistilBERT, and RoBERTa).
 
 ## 2. Evaluation Methodology
 
